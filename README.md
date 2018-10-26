@@ -6,17 +6,26 @@
 **Przykłady zadań asemblerowych w środowisku MIPS**
 
 *New*
-- [x] Zastępowanie cyfr ich dopełnieniem do 9 \(0->9, 1->8, 2->7 itd.).
-- [x] Wypisywanie najdłuższego ciągu cyfr znalezionego w łańcuchu wejściowym.
-- [x] Odwrócenie kolejności cyfr \(tylko).
-- [x] Skanowanie \(konwersja) i wyświetlanie największej liczby dziesiętnej z łańcucha.
-- [x] Zliczanie liczb dziesiętnych w łańcuchu.
+- [x] [Uppercase](Finished/Uppercase.asm)
+  - Zamiana wszystkich małych liter na wielkie
+- [x] [Supplement](Finished/Supplement.asm) 
+  - Zastępowanie cyfr ich dopełnieniem do 9 \(0->9, 1->8, 2->7 itd.).
+- [x] [Numbers](Finished/Numbers.asm)
+  - Wypisywanie najdłuższego ciągu cyfr znalezionego w łańcuchu wejściowym.
+- [x] [ReverseNum](Finished/ReverseNum.asm)
+  - Odwrócenie kolejności cyfr \(tylko).
+- [x] [DecConversion](Finished/DecConversion.asm)
+  - Skanowanie \(konwersja) i wyświetlanie największej liczby dziesiętnej z łańcucha.
+- [x] [DecCount](Finished/DecCount.asm)
+  - Zliczanie liczb dziesiętnych w łańcuchu.
 - [ ] Usunięcie z łańcucha znaków z określonego podzbioru \(cyfr, małych liter itp.)
 - [ ] Usunięcie z łańcucha sekwencji znaków o pozycji i długości zadanej w postaci liczb, z właściwą reakcją na nieprawidłowe wartości argumentów.
 - [ ] Zastępowanie co trzeciej małej litery przez odpowiadającą jej wielką.
 - [ ] Usuwanie z każdej ciągłej sekwencji wszystkich wielkich liter oprócz pierwszej litery.
-- [x] Wczytywanie czterech liter z sekwencji, zamiana środkowych miejscami i wyświetlenie rezultatu, przy czym nie można stosować instrukcji lb i sb.
-- [x] Usuwanie liter z podanej na wejściu sekwencji.
+- [x] [ChangeLetters](Finished/ChangeLetters.asm)
+  - Wczytywanie czterech liter z sekwencji, zamiana środkowych miejscami i wyświetlenie rezultatu, przy czym nie można stosować instrukcji lb i sb.
+- [x] [DeleteLetters](Finished/DeleteLetters.asm)
+  - Usuwanie liter z podanej na wejściu sekwencji.
 
 *Old*
 - [ ] Program sumujący wprowadzane z konsoli dziesiętne liczby stałopozycyjne zawierające do 200 cyfr.
