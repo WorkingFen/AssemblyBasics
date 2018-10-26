@@ -3,7 +3,7 @@
 ###### [ARKO] Computer Architecture, Warsaw University of Technology
 
 ## **[PL]**
-**Przykłady zadań asemblerowych w środowisku MIPS**
+**Przykłady zadań z asemblera w środowisku MIPS**
 
 *New*
 - [x] [Uppercase](Finished/Uppercase.asm)
