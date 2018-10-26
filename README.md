@@ -15,6 +15,8 @@
 - [ ] Usunięcie z łańcucha sekwencji znaków o pozycji i długości zadanej w postaci liczb, z właściwą reakcją na nieprawidłowe wartości argumentów.
 - [ ] Zastępowanie co trzeciej małej litery przez odpowiadającą jej wielką.
 - [ ] Usuwanie z każdej ciągłej sekwencji wszystkich wielkich liter oprócz pierwszej litery.
+- [x] Wczytywanie czterech liter z sekwencji, zamiana środkowych miejscami i wyświetlenie rezultatu, przy czym nie można stosować instrukcji lb i sb.
+- [x] Usuwanie liter z podanej na wejściu sekwencji.
 
 *Old*
 - [ ] Program sumujący wprowadzane z konsoli dziesiętne liczby stałopozycyjne zawierające do 200 cyfr.
@@ -42,4 +44,4 @@
 - [ ] Wyświetlanie symulowanego obrazu poziomego widma barw widzialnych \(od czerwieni do fioletu) o zadanej przez użytkownika wysokości \(>=1) i szerokości \(>=3).
 - [ ] Skanowanie z tekstu źródłowego liczb całkowitych bez znaku w dowolnym zapisie zgodnym ze składnią języka C \(óswmkowych, dziesiętnych, szesnastkowych) i wyświetlenie każdej z nich w trzech postaciach: ósemkowej, dziesiętnej i szesnastkowej. Wymagana poprawna obsługa zakresu 0..2^32-1
 
-`Exercises made by MSc Eng Grzegorz Mazur, IIPW`
+`Exercises made by MSc Eng Grzegorz Mazur, IIPW and MSc Eng Sławomir Niespodziany, IIPW`
