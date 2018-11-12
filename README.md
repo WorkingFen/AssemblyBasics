@@ -26,6 +26,8 @@
   - Wczytywanie czterech liter z sekwencji, zamiana środkowych miejscami i wyświetlenie rezultatu, przy czym nie można stosować instrukcji lb i sb.
 - [x] [DeleteLetters](Finished/DeleteLetters.asm)
   - Usuwanie liter z podanej na wejściu sekwencji.
+- [x] [ZBuffer](Finished/ZBuffer/Zbuffer.asm)
+  - Generowanie dwóch trójkątów po podaniu odpowiednich wierzchołków z zastosowaniem algorytmu Z-Buffer.
 
 *Old*
 - [ ] Program sumujący wprowadzane z konsoli dziesiętne liczby stałopozycyjne zawierające do 200 cyfr.
