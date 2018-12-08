@@ -7,7 +7,7 @@ asm:
 cc:
 	$(CC) -m32 -c main.c
 link:
-	$(CC) -m32 main.o func.o -o chanS -B/usr/lib32
+	$(CC) -m32 main.o func.o -o changeCase -B/usr/lib32
 clean:
 	rm *.o
-	rm chanS
+	rm changeCase
