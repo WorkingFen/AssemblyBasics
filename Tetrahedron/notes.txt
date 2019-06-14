@@ -1,0 +1,61 @@
+///////////////////////////////////////////
+Syntax for macro in NASM 
+
+%macro macro_name number_of_params
+<macro body>
+%endmacro
+
+Ex:
+%macro write_string 2
+    mov    eax, 4
+    mov    ebx, 1
+    mov    ecx, %1
+    mov    edx, %2
+    int    80h
+%endmacro
+///////////////////////////////////////////
+
+First of all:
+///////////////////////////////////////////
+section .text
+	global tetra
+
+tetra:
+	push	rbp
+	mov	rbp, rsp
+///////////////////////////////////////////
+
+cvtsd2si 1, 2 ;double precision conversion to doubleword integer (2 -> 1)
+
+Drawing:
+///////////////////////////////////////////
+1. Move to proper line
+///////////////////////////////////////////
+	cvtsd2si r10, xmm5
+	mov	r12, r10
+	mov	r15, rdi
+	sub	r8, r10
+	shl	r8, 3	
+	add	r15, r8
+///////////////////////////////////////////
+2. Move to proper column
+///////////////////////////////////////////
+	cvtsd2si r11, xmm6
+	mov	r13, r11
+	mov	rbx, [r15]
+	add	rbx, r11
+	mov	al, 0
+	mov	[rbx], al
+///////////////////////////////////////////
+
+At the end:
+///////////////////////////////////////////
+end:
+	mov	rsp, rbp
+	pop	rbp
+	ret
+///////////////////////////////////////////
+
+
+How to create proper buffer for z?
+Create new "bmp" map with 16bits per color, and the same size as the proper one, then get "lines" to be z-buffers
