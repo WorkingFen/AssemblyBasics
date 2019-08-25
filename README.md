@@ -6,27 +6,27 @@
 **Przykłady zadań z asemblera w środowisku MIPS**
 
 *New*
-- [x] [Uppercase](Finished/Uppercase.asm)
+- [x] [Uppercase](MIPS/Uppercase.asm)
   - Zamiana wszystkich małych liter na wielkie
-- [x] [Supplement](Finished/Supplement.asm) 
+- [x] [Supplement](MIPS/Supplement.asm) 
   - Zastępowanie cyfr ich dopełnieniem do 9 \(0->9, 1->8, 2->7 itd.).
-- [x] [Numbers](Finished/Numbers.asm)
+- [x] [Numbers](MIPS/Numbers.asm)
   - Wypisywanie najdłuższego ciągu cyfr znalezionego w łańcuchu wejściowym.
-- [x] [ReverseNum](Finished/ReverseNum.asm)
+- [x] [ReverseNum](MIPS/ReverseNum.asm)
   - Odwrócenie kolejności cyfr \(tylko).
-- [x] [DecConversion](Finished/DecConversion.asm)
+- [x] [DecConversion](MIPS/DecConversion.asm)
   - Skanowanie \(konwersja) i wyświetlanie największej liczby dziesiętnej z łańcucha.
-- [x] [DecCount](Finished/DecCount.asm)
+- [x] [DecCount](MIPS/DecCount.asm)
   - Zliczanie liczb dziesiętnych w łańcuchu.
 - [ ] Usunięcie z łańcucha znaków z określonego podzbioru \(cyfr, małych liter itp.)
 - [ ] Usunięcie z łańcucha sekwencji znaków o pozycji i długości zadanej w postaci liczb, z właściwą reakcją na nieprawidłowe wartości argumentów.
 - [ ] Zastępowanie co trzeciej małej litery przez odpowiadającą jej wielką.
 - [ ] Usuwanie z każdej ciągłej sekwencji wszystkich wielkich liter oprócz pierwszej litery.
-- [x] [ChangeLetters](Finished/ChangeLetters.asm)
+- [x] [ChangeLetters](MIPS/ChangeLetters.asm)
   - Wczytywanie czterech liter z sekwencji, zamiana środkowych miejscami i wyświetlenie rezultatu, przy czym nie można stosować instrukcji lb i sb.
-- [x] [DeleteLetters](Finished/DeleteLetters.asm)
+- [x] [DeleteLetters](MIPS/DeleteLetters.asm)
   - Usuwanie liter z podanej na wejściu sekwencji.
-- [x] [ZBuffer](Finished/ZBuffer/ZBuffer.asm)
+- [x] [ZBuffer](MIPS/ZBuffer)
   - Generowanie dwóch trójkątów po podaniu odpowiednich wierzchołków z zastosowaniem algorytmu Z-Buffer.
 
 *Old*
@@ -54,5 +54,15 @@
 - [ ] Wyświetlanie obrazu z pliku .BMP 24 bpp z redukcją nasycenia barw w stosunku x/256, x zadawane jako parametr.
 - [ ] Wyświetlanie symulowanego obrazu poziomego widma barw widzialnych \(od czerwieni do fioletu) o zadanej przez użytkownika wysokości \(>=1) i szerokości \(>=3).
 - [ ] Skanowanie z tekstu źródłowego liczb całkowitych bez znaku w dowolnym zapisie zgodnym ze składnią języka C \(óswmkowych, dziesiętnych, szesnastkowych) i wyświetlenie każdej z nich w trzech postaciach: ósemkowej, dziesiętnej i szesnastkowej. Wymagana poprawna obsługa zakresu 0..2^32-1
+
+**Przykłady zadań z asemblera w środowisku Intelx86**
+
+*New*
+- [x] [ChangeCase](x86/ChangeCase)
+  - Zamiana formatowania wyrazów
+- [x] [DeleteEvenNum](x86/DeleteEvenNum)
+  - Usuwanie liczb parzystych
+- [ ] [Tetrahedron](x86/Tetrahedron)
+  - Obracający się czworościan zgodnie z naciskanymi klawiszami kontrolnymi
 
 `Exercises made by MSc Eng Grzegorz Mazur, IIPW and MSc Eng Sławomir Niespodziany, IIPW`
